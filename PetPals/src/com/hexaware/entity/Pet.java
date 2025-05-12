@@ -5,13 +5,13 @@ public class Pet {
     private int age;
     private String breed;
 
- // Parameterized constructor
+ // Default constructor
     public Pet() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	//Default Constructors
+	//Parameterized Constructors
     public Pet(String name, int age, String breed) {
         super(); 
         this.name = name;

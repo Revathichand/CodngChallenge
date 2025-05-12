@@ -3,13 +3,13 @@ package com.hexaware.entity;
 public class Dog extends Pet {
     private String dogBreed;
 
-	//Default Constructors
+	//Parameterized Constructors
 	public Dog(String name, int age, String breed, String dogBreed) {
 		super(name, age, breed);
 		this.dogBreed = dogBreed;
 	}
 	
-	//Parameterized Constructors
+	//Default Constructors
 	public Dog(String name, int age, String breed) {
 		super(name, age, breed);
 		// TODO Auto-generated constructor stub

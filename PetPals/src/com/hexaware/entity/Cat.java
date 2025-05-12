@@ -4,21 +4,22 @@ public class Cat extends Pet {
     private String catColor;
 
 
-    //Parameterized Constructors
+    //Default Constructors
     public Cat() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+    
+    //Parameterized Constructors
 	public Cat(String name, int age, String breed) {
 		super(name, age, breed);
 		// TODO Auto-generated constructor stub
 	}
-	
-	//Default Constructors
 	public Cat(String catColor) {
 		super();
 		this.catColor = catColor;
 	}
+	
 	public String getCatColor() { return catColor; }
     public void setCatColor(String catColor) { this.catColor = catColor; }
 
